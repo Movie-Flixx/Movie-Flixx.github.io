@@ -99,3 +99,64 @@ input[type="text"] {
     right: 35px;
   }
 }
+
+h2{
+	text-align: left;
+	margin: 50px;
+	color: white;
+}
+
+.reccomended {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	border: solid 1px white;
+	border-radius: 16px;
+	height: 140px;
+	width: 140px;
+	margin: 15px;
+}
+
+.jaws {
+	background: url(art/jaws.jpg);
+}
+
+.incred {
+	background: url(art/i.jpeg)
+}
+
+.incred span {
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container:hover .darken  {
+	background-color: black;
+	border-radius: 15px;
+	height: 140px;
+	width: 140px;
+	opacity: 60%;
+	z-index: 1;
+	display: flex;
+	text-align: center;
+}
+
+.container:hover span {
+	opacity: 1;
+}
+
+span {
+	font-size: 50px;
+	opacity: 0;
+	margin: auto;
+	z-index: 1;
+	color: white;
+}
+
+
+
