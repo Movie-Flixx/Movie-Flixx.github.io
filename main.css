@@ -127,8 +127,16 @@ h2{
 	background: url(art/i.jpeg)
 }
 
+.emoji {
+	background: url(art/emoji.jpg)
+}
+
 .incred span {
 	font-size: 20px;
+}
+
+.emoji span {
+	font-size: 30px;
 }
 
 a {
